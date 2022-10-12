@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400px;
+  color: white;
+}
+nav a:hover {
+  font-weight: bold;
+}
+
+header {
+  display: inline;
+}
+.profile header {
+  text-align: center;
+}
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+h2,
+h3 {
+  color: #00a2c6;
+}
+
+div#content {
+  max-width: 800px;
+  background-color: rgb(200, 200, 200);
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+#content {
+  float: left;
+  width: 75%;
+}
+
+.box-sizing {
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen;
+  border: 10px solid cornflowerblue;
+  padding: 20px;
+}
+.content-box {
+  box-sizing: content-box;
+}
+.border-box {
+  box-sizing: border-box;
+}
+
+#content > h2 {
+  background-color: #4c5450;
+  padding: 15px;
+  color: white;
+}
+
+#content > h3 {
+  background-color: #60d0a8;
+  padding: 15px;
+  color: white;
+}
+
+#content > p {
+  background-color: hsl(56, 62%, 85%);
+  padding: 20px;
+}
+.box-w {
+  border-style: solid;
+  /* border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: groove;
+        border-left-style: double; */
+  border-width: 8px 8px 8px 8px;
+  border-top-color: rgb(255, 0, 0);
+  border-right-color: #e2e20f;
+  border-bottom-color: #4ee717;
+  border-left-color: #00c8eb;
+  background-color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  /* box-- */
+  box-shadow: 6px 6px 5px 10px #666;
+  /* kiri atau kekanan bayang */
+  /* atas atau kebawah */
+  /* tingkat keburaman */
+  /* tingkat sebaran bayangan */
+  /* menentukan warna bayangan */
+}
+.rounded {
+  border-radius: 10px;
+  background-color: #e2e20f;
+}
+.h-login {
+  padding: 10px;
+}
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+  list-style-type: none;
+}
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.profile img {
+  width: 200px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.jumbotron {
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #00a2c6;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Rule yang dituliskan dalam block @media dibawah akan diterapkan pada device yang memiliki ukuran viewport dibawah 992px*/
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Rule yang dituliskan dalam block @media dibawah akan diterapkan pada device yang memiliki ukuran viewport dibawah 600px*/
+@media screen and (max-width: 600px) {
+
+}
